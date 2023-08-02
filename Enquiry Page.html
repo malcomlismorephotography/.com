@@ -1,0 +1,369 @@
+<html>
+    <head>
+        <title>Contact</title>
+        <style>
+            
+        body {
+            align-items: center;
+            justify-content: center;
+        }
+
+        .topnav {
+            position: relative;
+            background-color: black;
+            overflow: hidden;
+        }
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        html,body {
+            background-color: black;
+            margin:0;
+            padding:0;
+        }
+
+        .contact_us * {
+        font-family: 'Times New Roman', Times, serif;
+        }
+
+        .contact_us a {
+        text-decoration-line: none;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+        }
+
+        .contact_us .text-blk {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        line-height: 25px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 25px;
+        }
+
+        .contact_us input:focus {
+        outline-color: initial;
+        outline-style: none;
+        outline-width: initial;
+        }
+
+        .contact_us textarea:focus {
+        outline-color: initial;
+        outline-style: none;
+        outline-width: initial;
+        }
+
+        .contact_us .responsive-cell-block {
+        min-height: 75px;
+        }
+
+        .contact_us .responsive-container-block {
+        min-height: 75px;
+        height: fit-content;
+        width: 100%;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        justify-content: flex-start;
+        }
+
+        .contact_us .responsive-container-block.bigContainer {
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        }
+
+        .contact_us .responsive-container-block.Container {
+        max-width: 1320px;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-bottom: 40px;
+        margin-left: 350;
+        }
+
+        .contact_us .mainImg {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        }
+
+        .contact_us .responsive-cell {
+        background-color: #111111;
+        padding-top: 0px;
+        padding-right: 5px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        }
+
+        .contact_us .text-blk.heading {
+        color: white;
+        font-size: 35px;
+        line-height: 48px;
+        font-weight: 800;
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        }
+
+        .contact_us #message {
+        width: 100%;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        }
+
+        .contact_us .email {
+        width: 49%;
+        }
+
+        .contact_us .firstRow {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        width: 100%;
+        }
+
+        .contact_us .name {
+        width: 49%;
+        }
+
+        .contact_us .cardHead {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        color: white;
+        }
+
+        .contact_us .submit {
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
+        background-image: initial;
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: #02242f;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        }
+
+        .contact_us .formTable {
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        }
+
+        .contact_us .message {
+        width: 100%;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        }
+
+        .contact_us .name {
+        width: 100%;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        }
+
+        .contact_us .email {
+        width: 100%;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        }
+
+        @media (max-width: 1024px) {
+        .contact_us .firstRow {
+            flex-direction: column;
+        }
+
+        .contact_us .name {
+            width: 100%;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 30px;
+            margin-left: 0px;
+        }
+
+        .contact_us .email {
+            width: 100%;
+        }
+        }
+
+        @media (max-width: 500px) {
+        .contact_us .responsive-container-block.bigContainer {
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+        }
+
+        .contact_us .responsive-container-block.Container {
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+        }
+
+        .contact_us .responsive-cell {
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: black;
+            color: white;
+        }
+        </style>
+        
+    </head>
+    <body>
+        <nav>
+            <!-- Navigation Menu -->
+        <div class="topnav">
+            <div class="topnav-centered">
+                <a href="file:///C:/xampp/htdocs/Malcom%20Lismore/Home%20Page.HTML" class="active">Home</a>
+                <a href="file:///C:/xampp/htdocs/Malcom%20Lismore/About%20Page.html">About</a>
+                <a href="file:///C:/xampp/htdocs/Malcom%20Lismore/Pricing.html">Services & Pricing</a>
+                <a href="file:///C:/xampp/htdocs/Malcom%20Lismore/Gallery.html">Gallery</a>
+        </div>
+        </nav>
+
+        <br>
+        <div class="contact_us">
+        <div class="responsive-container-block bigContainer">
+        <div class="responsive-container-block Container">
+        <div class="responsive-cell">
+        <img class="mainImg" src="185843.png">
+        </div>
+        
+        
+        <div class="responsive-cell">
+        <p class="text-blk heading">
+        Contact Me
+        </p>
+
+        <form class="formTable" id="izml" action="connect.php" method="post">
+        <div class="firstRow">
+        <div class="name">
+        <p class="cardHead">
+        Full Name
+        </p>
+        <input class="name" id="name" name="name" type="text">
+        </div>
+
+        <div class="email">
+        <p class="cardHead">
+        Email Address
+        </p>
+        <input class="email" id="email" name="email" type="text">
+        </div>
+
+        </div>
+        <div class="message">
+        <p class="cardHead">
+        Message
+        </p>
+        <textarea class="message" cols="30" id="message" name="message" rows="10"></textarea>
+        </div>
+        <a class="submit" href="#" id="w-c-s-bgc_p-1-dm-id-4">
+        Send Message
+        </a>
+        </form>
+
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <script>
+        function validateForm() {
+        var name = document.forms["contactForm"]["name"].value;
+        var email = document.forms["contactForm"]["email"].value;
+        var message = document.forms["contactForm"]["message"].value;
+        var error = "";
+
+        if (name == "") {
+            error += "Please enter your name.\n";
+        }
+
+        if (email == "") {
+            error += "Please enter your email address.\n";
+        } else if (!validateEmail(email)) {
+            error += "Please enter a valid email address.\n";
+        }
+
+        if (message == "") {
+            error += "Please enter a message.\n";
+        }
+
+        if (error != "") {
+            alert(error);
+        return false;
+        }
+        }
+
+        function validateEmail(email) {
+        var re = /\S+@\S+\.\S+/;
+         return re.test(email);
+        }   
+        </script>
+
+
+        <footer>
+            <p>Author: Malcom Lismore &nbsp; Year: 2023 &nbsp; <a href="mailto:mal@google.com">Mal@google.com</a></p>
+        </footer>
+
+    </body>
+</html>
